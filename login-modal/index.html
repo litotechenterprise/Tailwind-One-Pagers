@@ -4,9 +4,31 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700&amp;family=Rokkitt:wght@600;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      tailwind.config = {
+        theme: {
+          fontFamily: {
+            sans: ["Mulish", "sans-serif"],
+            mono: ["Rokkitt", "monospace"],
+          },
+        },
+      };
+    </script>
     <title>Login Modal</title>
   </head>
   <body>
-    <h1 class="text-3xl bg-red-300">Login Modal</h1>
+    <!--Global Container -->
+    <div class="flex items-center justify-center min-h-screen bg-rose-50">
+      <!-- Card Container -->
+      <div
+        class="relative flex flex-col m-6 space-y-10 bg-white shadow-2xl rounded-2xl md:flex-row md:space-y-0 md:m-0"
+      >
+        hello
+      </div>
+    </div>
   </body>
 </html>
